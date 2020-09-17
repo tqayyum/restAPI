@@ -1,18 +1,18 @@
 let calculateGrade = (studentScore, totalMaxScore) => {
 
   if (typeof studentScore !== "number" || typeof totalMaxScore !== "number") {
-    console.log(`I can only work with numbers!`);
-    return;
+    return `I can only work with numbers!`
+    
   }
 
   if (studentScore < 0 || totalMaxScore < 0) {
-    console.log(`Score can't be negative!`);
-    return;
+    return `Score can't be negative!`
+    
   }
 
   if (studentScore > totalMaxScore) {
-    console.log(`Student score (${studentScore}) can't greater than max score (${totalMaxScore})!`);
-    return;
+    return `Student score (${studentScore}) can't greater than max score (${totalMaxScore})!`
+    
   }
 
   let percent = (studentScore / totalMaxScore) * 100;
