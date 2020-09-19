@@ -7,6 +7,6 @@ describe("fizzBuzz() tests", () => {
 
     fizzBuzz(15)
     
-  })
+    })
 
 })
