@@ -1,12 +1,12 @@
-const fizzBuzz = require('../src/fizzBuzz')
-const assert = require('chai').assert
+// const fizzBuzz = require('../src/fizzBuzz')
+// const assert = require('chai').assert
 
-describe("fizzBuzz() tests", () => {
+// describe("fizzBuzz() tests", () => {
 
-  it("fizzBuzz", () => {
+//   it("fizzBuzz", () => {
 
-    fizzBuzz(15)
+//     fizzBuzz(15)
     
-    })
+//     })
 
-})
+// })
