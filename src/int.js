@@ -5,8 +5,8 @@ For example: [342, 1002, 523] should become [371.92, 1089.67, 568.76], given the
 */
 
 let calTax = (arr, tax) =>{
-const updatedArr = (arr * tax).toFixed(2);
-return updatedArr
+let total = (arr * tax).toFixed(2);
+return total
 }
 
 module.exports = calTax;
