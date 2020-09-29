@@ -8,17 +8,17 @@ describe("calTax() ", () =>{
     expect(actVal).to.equal(expVal);
   });
   
-  // it("1002 should be 8905.28 ", () => {
-  //   const actVal = calTax('1002, 8.8875')
-  //   const expVal = 8905.28
-  //   expect(actVal).to.equal(expVal);
-  // });
+  it("1002 should be 8905.28 ", () => {
+    const actVal = calTax('1002, 8.8875')
+    const expVal = 8905.28
+    expect(actVal).to.equal(expVal);
+  });
   
-  // it("523 should be 4648.16 ", () => {
-  //   const actVal = calTax('523, 8.8875')
-  //   const expVal = 4648.16
-  //   expect(actVal).to.equal(expVal);
-  // });
+  it("523 should be 4648.16 ", () => {
+    const actVal = calTax('523, 8.8875')
+    const expVal = 4648.16
+    expect(actVal).to.equal(expVal);
+  });
   
 })
 
