@@ -4,9 +4,9 @@ Format the numbers in the resulting array to have 2 digits after decimal point (
 For example: [342, 1002, 523] should become [371.92, 1089.67, 568.76], given the tax of 8.875%.
 */
 
-let arr = [342, 1002, 523]
-let tax = 8.8875
+let calTax = (arr, tax) =>{
+const updatedArr = (arr * tax).toFixed(2);
+return updatedArr
+}
 
-const updatedArr = arr.map(arr2 => (arr2 * tax).toFixed(2));
-
-console.log(updatedArr)
+module.exports = calTax;

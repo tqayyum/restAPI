@@ -6,15 +6,11 @@ Input: s = "rat", t = "car" // Output: false
 Note:
 You may assume the string contains only lowercase alphabets.
 */
-
-let s = 'anagram'
-let t = 'nagaram'
-
-let anagram = () => {
+let anagram = (s,t) => {
     if (s.split("").sort().join("") === t.split("").sort().join("")){
-      console.log(`This is an anagram`)
+      return true
     } else { 
-      console.log(`This is not an anagram`)}
+      return false
+    }
 }
-
-console.log(anagram())
+module.exports = anagram;

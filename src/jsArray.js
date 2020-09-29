@@ -10,11 +10,7 @@ Try to:
 - Minimize the total number of operations
 */
 
-
-let array = [0, 1, 0, 3, 12]
-
-let zero = () => {
-  
+let zero = (array) => {
   for (let i = 0; i < array.length; i++) {
     const element = array[i];
     if(element === 0){
@@ -22,7 +18,7 @@ let zero = () => {
        array.push(temp[0])
     }
   }
-  console.log(`${array}`)
+  return array
 }
 
-console.log(zero())
+module.exports = zero;
